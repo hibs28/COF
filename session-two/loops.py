@@ -13,3 +13,15 @@ for i in "Hello":
 # for loop on a list of items
 for var in ["apples", "bananas", "cherries"] :
     print(var)
+
+# ------------------------------------------------
+print("\n--------------------\n")
+
+# while loops
+store_capacity = 5
+while store_capacity > 0 :
+    print("Please come in. Spaces available: " + str(store_capacity))
+    store_capacity = store_capacity - 1 #comment this out and it will create an infinite loop
+
+print("\nPlease wait for someone to exit the store.")
+
